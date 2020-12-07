@@ -1,4 +1,5 @@
 # importing libs
+import datetime
 import pymongo
 from pymongo import MongoClient
 
@@ -9,5 +10,11 @@ port = 27017
 # connecting with MongoDB
 client = MongoClient(host = host , port = port)
 
+# show the database list names
 print(client.list_database_names())
 
+# choosing database
+db = client['loja']
+
+# 
+colec = db.test_collection
