@@ -1,5 +1,5 @@
 # importing libs
-import datetime
+import json
 import pymongo
 from pymongo import MongoClient
 
@@ -16,6 +16,15 @@ print(client.list_database_names())
 # create database -- its available
 db = client['STORE']
 
-#
+# creating collections
+colec = db['products']
+
+json_file = 'E:\\Projects\\MongoDB-with-python\\data_input.json'
+
+# open json file
+with open(json_file) as f:
+    data = json.load(f)
+
+
 
 
