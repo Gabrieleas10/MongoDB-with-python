@@ -1,37 +1,37 @@
-musicas = [
+products = [
     {
       "_id": 1,
-      "nome": "Radioactive",
-      "banda": "Imagine Dragons",
-      "categorias": ["indie", "rock"],
-      "lancamento": datetime.datetime.now()
+      "name": "Milk",
+      "local": "Store 1",
+      "tags": ["Lac Free", "Sugar Free"],
+      "valid": datetime.datetime.now()
     },
     {
       "_id": 2,
-      "nome": "Hear Me",
-      "banda": "Imagine Dragons",
-      "categorias": ["indie", "rock"],
-      "lancamento": datetime.datetime.now()
+      "name": "Cheese",
+      "local": "Store 2",
+      "tags": ["Gouda", "Cheedar","Feta"],
+      "valid": datetime.datetime.now()
     },
     {
       "_id": 3,
-      "nome": "Demons",
-      "banda": "Imagine Dragons",
-      "categorias": ["indie", "rock"],
-      "lancamento": datetime.datetime.now()
+      "name": "Soda",
+      "local": "Store 3",
+      "tags": ["Coca", "Pepsi","Sprite","Fanta"],
+      "valid": datetime.datetime.now()
     },
     {
       "_id": 4,
-      "nome": "Nothing Left To Say",
-      "banda": "Imagine Dragons",
-      "categorias": ["indie", "rock"],
-      "lancamento": datetime.datetime.now()
+      "name": "Protein",
+      "local": "Store 1",
+      "tags": ["Meat", "Turkey","Eggs","Chicken"],
+      "valid": datetime.datetime.now()
     },
     {
       "_id": 5,
-      "nome": "Amsterdam",
-      "banda": "Imagine Dragons",
-      "categorias": ["indie", "rock"],
-      "lancamento": datetime.datetime.now()
+      "name": "Cookie",
+      "local": "Store 3",
+      "tags": ["Chocolate", "Vanilla","Banana","Apple"],
+      "valid": datetime.datetime.now()
     }
 ]

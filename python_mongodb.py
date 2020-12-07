@@ -13,8 +13,9 @@ client = MongoClient(host = host , port = port)
 # show the database list names
 print(client.list_database_names())
 
-# choosing database
-db = client['loja']
+# create database -- its available
+db = client['STORE']
 
-# 
-colec = db.test_collection
+#
+
+
