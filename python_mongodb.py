@@ -19,11 +19,19 @@ db = client['STORE']
 # creating collections
 colec = db['products']
 
+# json file path
 json_file = 'E:\\Projects\\MongoDB-with-python\\data_input.json'
 
-# open json file
-with open(json_file) as f:
-    data = json.load(f)
+# inserting many values in STORE MongoDB DataBase
+with open(json_file) as file: 
+    file_data = json.load(file)
+    colec.insert_many(file_data['products']).inserted_ids
+
+# showing documents and objects
+for x in colec.find():
+  print(x)
+   
+
 
 
 

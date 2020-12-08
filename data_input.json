@@ -1,1 +1,39 @@
-"E:\\Projects\\MongoDB-with-python\\"
+{
+    "products" : [
+        {
+        "_id": 1,
+        "name": "Milk",
+        "local": "Store 1",
+        "tags": ["Lac Free", "Sugar Free"],
+        "valid": "2020-08-10"
+        },
+        {
+        "_id": 2,
+        "name": "Cheese",
+        "local": "Store 2",
+        "tags": ["Gouda", "Cheedar","Feta"],
+        "valid": "2021-05-08"
+        },
+        {
+        "_id": 3,
+        "name": "Soda",
+        "local": "Store 3",
+        "tags": ["Coca", "Pepsi","Sprite","Fanta"],
+        "valid": "2022-06-10"
+        },
+        {
+        "_id": 4,
+        "name": "Protein",
+        "local": "Store 1",
+        "tags": ["Meat", "Turkey","Eggs","Chicken"],
+        "valid": "2019-12-20"
+        },
+        {
+        "_id": 5,
+        "name": "Cookie",
+        "local": "Store 3",
+        "tags": ["Chocolate", "Vanilla","Banana","Apple"],
+        "valid": "2021-03-17"
+        }
+    ]
+}
